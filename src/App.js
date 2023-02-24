@@ -53,7 +53,7 @@ const getRandomQuote = async () => {
         </div>
         <div id="buttons">
           <a id="tweet-quote" href="twitter.com/intent/tweet">Tweet Quote</a>
-          <button id="new-quote" onClick={handleClick} style={{ backgroundColor: buttonColor }}>New Quote</button>
+          <button id="new-quote" onClick={handleClick} className="my-button-class" style={{ backgroundColor: buttonColor }}>New Quote</button>
         </div>
       </div>
   );

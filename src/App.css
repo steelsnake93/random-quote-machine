@@ -5,6 +5,12 @@ body {
   height: 100vh;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #quote-box {
   background-color: white;
   border-radius: 10px;
@@ -21,4 +27,12 @@ body {
 #buttons {
   display: flex;
   justify-content: space-between;
+}
+
+.my-button-class {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
