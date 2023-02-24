@@ -13,3 +13,12 @@ body {
   width: 80%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+#author {
+  text-align: right;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
