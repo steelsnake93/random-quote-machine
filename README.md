@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Random Quote Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This is a simple web application that displays a random quote and author each time the "New Quote" button is clicked. The user can also click the "Tweet Quote" button to share the current quote on Twitter.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+This project was built using HTML, CSS, and JavaScript. The following libraries and APIs were used:
 
-### `npm start`
+- Font Awesome: for icons
+- jQuery: for DOM manipulation
+- Quotes API: for fetching random quotes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## User Stories
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project fulfills the following user stories:
 
-### `npm test`
+- As a user, I can see a wrapper element with a corresponding id="quote-box".
+- As a user, within #quote-box, I can see an element with a corresponding id="text".
+- As a user, within #quote-box, I can see an element with a corresponding id="author".
+- As a user, within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+- As a user, within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".
+- As a user, on first load, my quote machine displays a random quote in the element with id="text".
+- As a user, on first load, my quote machine displays the random quote's author in the element with id="author".
+- As a user, when the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
+- As a user, my quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
+- As a user, I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
+- As a user, the #quote-box wrapper element should be horizontally centered.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To install this application, you'll need to have Node.js and npm installed on your computer. Once you have those installed, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### - `git clone https://github.com/steelsnake93/random-quote-machine.git`,
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Navigate to the project directory using
 
-### `npm run eject`
+### - `cd random-quote-machine`,
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Install the required dependencies using
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### - `npm install`,
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    To run the application, use the command npm start. This will start the development server and open the application in your default browser at http://localhost:3000/.
 
-## Learn More
+    To generate a new random quote, simply click the "New Quote" button. To share the current quote on Twitter, click the "Tweet" button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Alternatively, you can view a live demo of the project [here]() 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions to this project are welcome! If you find a bug or have a suggestion for an improvement, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Before submitting a pull request, please make sure that your code adheres to the project's coding standards and passes all tests.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for details.
