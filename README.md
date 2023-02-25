@@ -48,7 +48,7 @@ To install this application, you'll need to have Node.js and npm installed on yo
 
     To generate a new random quote, simply click the "New Quote" button. To share the current quote on Twitter, click the "Tweet" button.
 
-Alternatively, you can view a live demo of the project [here]() 
+Alternatively, you can view a live demo of the project [here](https://steelsnake93.github.io/random-quote-machine/) 
 
 ## Contributing
 
