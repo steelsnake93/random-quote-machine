@@ -1,38 +1,59 @@
 body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh;  
+}  
+#quote-box {  
+  font-size: 1.5rem;  
+  font-weight: 500;  
+  background-color: rgb(238, 238, 238);  
+  border-radius: 10px;  
+  padding: 1.5rem;  
+  max-width: 500px;  
+  width: 450px;  
+  box-shadow: 50px 50px 30px rgba(47, 47, 47, 0.2);  
+}
+#text {    
+  display : flex;    
+  text-align : center; 
+}    
+#text i {     
+    font-size : 2.0rem;     
+    padding-right : 15px; 
+}   
+#author {     
+    text-align : right;     
+    font-size : 1.1rem;     
+    padding-right : 10px; 
+}    
+#buttons {     
+    display : flex;    
+    justify-content : space-between;     
+    align-items : center; 
+}    
+.btn-quote , .button-quote {      
+    color : #fff;      
+    border : none;      
+    padding : 10px 15px;      
+    font-size : 1.2rem;      
+    border-radius : 5px;      
+    cursor : pointer;      
+  }    
+.btn-quote:hover , .button-quote:hover {       
+    background-color : #2b2b2b; 
 }
 
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#quote-box {
-  background-color: white;
-  border-radius: 10px;
-  padding: 2rem;
-  max-width: 500px;
-  width: 80%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-#author {
-  text-align: right;
-}
-
-#buttons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.my-button-class {
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
+/* CSS for devices with a max-width of 767px (mobile devices) */
+@media only screen and (max-width: 767px) {
+  #root {
+    display: flex;
+    justify-content: center;
+  }
+  #quote-box {
+    width: 75%;
+  }
 }
