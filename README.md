@@ -2,6 +2,12 @@
 
  This is a simple web application that displays a random quote and author each time the "New Quote" button is clicked. The user can also click the "Tweet Quote" button to share the current quote on Twitter.
 
+## Links
+
+- [Repo](https://github.com/steelsnake93/random-quote-machine "<random-quote-machine> Repo")
+
+- [Live](https://steelsnake93.github.io/random-quote-machine/ "<[Homepage url]> Live View")
+
 ## Technologies Used
 
 This project was built using HTML, CSS, and JavaScript. The following libraries and APIs were used:
